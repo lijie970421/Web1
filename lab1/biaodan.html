@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>表单</title>
+		<meta  charset="UTF-8"/>
+	</head>
+	<body>
+		<form>
+		<!--单行文本框-->
+			姓名：<br/>
+				<input type="text" name="text1" value=""><br/> 
+			密码：<br/>	
+				<input type="password" name="pass"><br/>
+		<!--单选框-->
+			请选择自己的性别：<br/>
+				<input type="radio" name="sex" value="Famale">女<br/><!--同一组name属性值相同，value属性值不同-->
+				<input type="radio" name="sex" value="Male" checked="checked">男<br/> <!--checked="checked"是默认选项-->
+			请选择您所在城市：<br/> 
+				<input type="radio" name="city" value="sjz">石家庄<br/> 
+				<input type="radio" name="city" value="bj">北京<br/> 
+				<input type="radio" name="city" value="tj">天津<br/> 
+				<input type="radio" name="city" value="bd">保定<br/> 
+		
+		
+		<!--复选框-->
+		
+			你对哪些活动感兴趣：<br/>
+				<input type="checkbox" name="sport" value="paobu">跑步<br/> 
+				<input type="checkbox" name="sport" value="youyong">游泳<br/> 
+				<input type="checkbox" name="sport" value="pashan">爬山<br/> 
+		<!--文件域-->
+			<input type="file" name="wenjian" value=""/><br/>
+		<!--提交按钮-->
+			<input type="submit" name="but" value="提交"/><br/>
+		<!--普通按钮-->
+			<input type="button" value="普通按钮"/>
+		<!--多行文本框-->
+			<textarea rows="10" cols="100">请输入个人简介</textarea><br/>
+		<!--下拉列表-->
+			出生日期：
+			<select>
+				<option>请选择</option>
+				<option>1986</option>
+				<option>1987</option>
+			</select>年
+			<select>
+				<option>1月</option>
+				<option>2月</option>
+				<option>3月</option>
+			</select>月
+		</form>
+	</body>
+</html>
