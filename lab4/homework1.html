@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>表格里插入表单</title>
+		<meta  charset="UTF-8"/>
+	</head>
+	<body>
+		<table align="center" border="1px" cellpadding="10px" cellspacing="0px" width="700px" height="300px" bordercolor="#cccccc">
+			<tr align="left">
+				<td>用户名：</td>
+				<td><input type="test" name="test1"/></td>
+			</tr>
+			<tr align="left">
+				<td>密码：</td>
+				<td><input type="password" name="pass"/></td>
+			</tr>
+			<tr align="left">
+			    <td>确认密码：</td>
+				<td><input type="password" name="pass"/></td>	
+			</tr>
+			<tr align="left">
+				<td>性别：</td>
+				<td>
+					<input type="radio" name="sex" value="male" checked="checked"/>男
+					<input type="radio" name="sex" value="female"/>女
+				</td>
+			</tr>
+			<tr align="left">
+				<td>生日：</td>
+				<td>
+					<select>
+					<option value="nongli">农历</option>
+					<option value="yinli">阴历</option>
+					</select>
+					<select>
+					<option value="nian">年</option>
+					<option value="1997">1997</option>
+					<option value="1998">1998</option>
+					<option value="1999">1999</option>
+					</select>
+					<select>
+					<option value="月">月</option>
+					<option value="1">1月</option>
+					<option value="2">2月</option>
+					<option value="3">3月</option>
+					<option value="4">4月</option>
+					<option value="5">5月</option>
+					<option value="6">6月</option>
+					<option value="7">7月</option>
+					<option value="8">8月</option>
+					<option value="9">9月</option>
+					<option value="10">10月</option>
+					<option value="11">11月</option>
+					<option value="12">12月</option>
+					</select>
+					<select>
+					<option value="ri">日</option>
+					<option value="1">1日</option>
+					<option value="2">2日</option>
+					<option value="3">3日</option>
+					<option value="4">4日</option>
+					<option value="5">5日</option>
+					<option value="6">6日</option>
+					<option value="7">7日</option>
+					<option value="8">8日</option>
+					<option value="9">9日</option>
+					<option value="10">10日</option>
+					<option value="11">11日</option>
+					<option value="12">12日</option>
+					<option value="13">13日</option>
+					<option value="14">14日</option>
+					<option value="15">15日</option>
+					<option value="16">16日</option>
+					<option value="17">17日</option>
+					<option value="18">18日</option>
+					<option value="19">19日</option>
+					<option value="20">20日</option>
+					<option value="21">21日</option>
+					<option value="22">22日</option>
+					<option value="23">23日</option>
+					<option value="24">24日</option>
+					<option value="25">25日</option>
+					<option value="26">26日</option>
+					<option value="27">27日</option>
+					<option value="28">28日</option>
+					<option value="29">29日</option>
+					<option value="30">30日</option>
+					<option value="31">31日</option>
+					</select>
+				</td>
+			</tr>
+			<tr align="left">
+				<td>所在地：</td>
+				<td>
+					<select>
+					<option value="zhongguo">中国</option>
+					<option value="meiguo">美国</option>
+					<option value="riben">日本</option>
+					<option value="yingguo">英国</option>
+					</select>
+					<select>
+					<option value="hebei">河北</option>
+					<option value="henan">河南</option>
+					<option value="shanxi">山西</option>
+					<option value="shandong">山东</option>
+					</select>
+					<select>
+					<option value="shijiazhuang">石家庄</option>
+					<option value="baoding">保定</option>
+					<option value="cangzhou">沧州</option>
+					<option value="xigtai">邢台</option>
+					</select>
+				</td>
+			</tr>
+			<tr align="left">
+				<td>验证码：</td>
+				<td>
+					<input type="test" name="tast2"/>
+					<img src="picture.jpg"/><br/>
+				</td>
+			</tr>
+			<tr align="left">
+				<td>证件类型：</td>
+				<td>
+					<select>
+					<option value="shenfenzheng">身份证</option>
+					<option value="junrenzheng">军人证</option>
+					<option value="gangao">港澳通行证</option>
+					</select>
+				</td>
+			</tr>
+			<tr align="left">
+				<td>证件号</td>
+				<td><input type="test" name="test3"/></td>
+			</tr>
+			<tr align="left">
+				<td>爱好：</td>
+				<td>
+					<input type="checkbox" name="hobby" value="yinyue"/>音乐
+					<input type="checkbox" name="hobby" value="dushu" checked="checked"/>读书
+					<input type="checkbox" name="hobby" value="tiaowu" checked="checked"/>跳舞
+					<input type="checkbox" name="hobby" value="paobu"/>下棋
+					<input type="checkbox" name="hobby" value="youyong"/>其他 
+					</td>
+			</tr>
+			<tr align="left">
+				<td>说明：</td>
+				<td><textarea name="shuoming" cols="4" rows="2" style="width:400px;height:160px;"></textarea></td>
+			</tr>
+			<tr>
+				<td>上传头像</td>
+				<td><input type="button" value="选择文件"/>未选择任何文件
+				</td>
+			</tr>
+			<tr align="center">
+				<td colspan="2">
+					<input type="submit" name="sub" value="提交"/>
+					<input type="reset" name="reset" value="重置"/>
+					<input type="button" value="按钮"/>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
