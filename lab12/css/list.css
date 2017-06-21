@@ -1,0 +1,91 @@
+.neirongkuang{
+	margin:0 auto;
+	background-position:center top;
+	width:1000px;
+    clear:both;
+}
+.zuocekuangjia{
+	float:left;
+    width:200px;
+}
+.youcekuangjia{
+	float:right;
+	width:700px;
+
+}
+.weizhi{
+	width:250px;
+	height:40px;
+	font-size:14px;
+}
+.weizhi p{
+	padding:20px 0px 0px 0px;
+}
+#meishi{
+	margin:80px 25px 20px 5px;
+	font-weight: bolder;
+	font-family:'幼圆';
+	font-size:22px;
+}
+.meishi1{
+	background:url(../images/meishi.png);
+	height:200px;
+	width:250px;
+	font-size:18px;
+}
+.mingchi1{
+	background:url(../images/mingchi.png);
+	height:230px;
+	width:258px;
+	font-size:18px;
+}
+#mingchi{
+	margin:80px 25px 20px 5px;
+	font-weight: bolder;
+	font-family:'幼圆';
+	font-size:20px;
+	padding:50px 0px 0px 50px;
+}
+.mingchi1 ul{
+	padding:0px 10px 3px 55px;
+	font-size:16px;
+}
+.yeshu a{
+	color:#dc143c;
+}
+.lishiwenhua{
+	font-weight: bolder;
+	font-size:28px;
+	font-family:'幼圆';
+	margin:0px 50px 5px 60px;
+}
+.wenzhang{
+	width: 300px;
+	float:left;
+	padding-left: 58px;
+}
+.wenzhang li{
+	margin-top:15px;
+	font-size: 16px;
+}
+.riqi{
+	width: 235px;
+	float:left;
+
+}
+.riqi li{
+	text-align: right;
+	margin-top:15px;
+	font-size: 16px;
+}
+.yema{
+	width:1000px;
+	clear:left;
+	float:left;
+}
+.yema a{
+	color:#dc143c;
+	font-size:16px;
+}
+
+

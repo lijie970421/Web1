@@ -1,0 +1,112 @@
+#zhuti{
+	width:1000px;
+	clear:both;
+	margin:auto;
+}
+.left{
+	width:350px;
+	float:left;
+	margin-top:30px;
+	padding-top:10px;
+}
+.center{
+	width:300px;
+	height:300px;
+	float:left;
+	background:url(../images/center.png);
+	margin-top:20px;
+	margin-left:50px;
+}
+.right{
+	width:300px;
+	float:left;
+	margin-left:50px;
+}
+.xinwen_text{
+	float:left;
+	font-size:18px;
+	color:#6495ed;
+	font-family:'幼圆'；
+}
+.date{
+	float:right;
+	color:#000;
+	font-size:14px;
+}
+.top #weizhi{
+	width:700px;
+	height:40px;
+	font-size:14px;
+	margin:;
+}
+.top #weizhi p{
+	padding:10px 0px 0px 20px;
+}
+#denglu{
+	background:url(../images/denglu.png);
+	height:100px;
+	width:230px;
+	float:left;
+	margin-top:20px;
+}
+#denglu_text{
+	padding:15px 20px 10px 30px;
+}
+.bottom{
+	width:1000px;
+	clear:both;
+	margin:0px auto;
+}
+
+.image{
+		width:180px;
+		height:180px;
+		float:left;
+		margin:0px 0px 5px 8px;
+		padding-right:5px;
+}
+.img1{
+		height:220px;
+		float:left;
+		opacity:0.5;
+}
+.img1:hover{
+		opacity:1;
+}
+div.image img{
+		display:inline;
+		margin:3px;
+		border:1px solid #bebebe;
+		width:180px;
+		height:160px;
+
+}
+div.image a:hover img{
+		border:1px solid #333333;
+}
+#lvyou{
+	font-size:30px;
+	font-family:'幼圆';
+	color:#006400;
+	padding:40px 40px 5px 50px; 
+}
+#lvyou1 p{
+	padding:0px 30px 5px 60px;
+	color:#daa520;
+}
+.top{
+	background:url(../images/jianjie.png);
+	float:left;
+	height:260px;
+}
+.top p{
+	font-size:18px;
+	font-family:'幼圆';
+	color:#8470ff;
+}
+.p1{
+	padding-top:70px;
+}
+.right_img{
+	padding:20px 50px 0px 50px;
+}
