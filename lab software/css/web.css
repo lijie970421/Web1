@@ -1,0 +1,81 @@
+.center{
+	width:1000px;
+	clear:both;
+	margin:auto;
+}
+.one{
+	background-image:url(../images/one.jpg);
+	width:980px;
+	height:300px;
+}
+.one_text p{
+	font-family:'幼圆';
+	color:#ffa500;
+}
+.p1{
+	font-size:50px;
+	padding:20px 30px 0px 30px;
+	
+}
+.p2{
+	font-size:100px;
+	text-align:center;
+}
+.two{
+	background-image:url(../images/two.png);
+	height:400px;
+	margin-bottom:10px;
+
+}
+.two h1{
+	padding:30px 20px 5px 100px;
+	font-family:'幼圆';
+	color:#4682b4;
+}
+.two p{
+	padding:5px 20px 10px 70px;
+	font-family:'楷体';
+}
+.three{
+	text-align:center;
+	font-size:18px;
+	border:1px solid;
+	color:#f5fffa;
+	clear:both;
+	margin-top:10px;
+}
+.three a{
+	text-decoration:none;
+}
+.p3{
+	font-size:50px;
+}
+.left,.middle,.right{
+	height:300px;
+	width:300px;
+	float:left;
+	margin-left:10px;
+}
+.left p,.middle p,.right p{
+	text-align:center;
+	color:#fdf5e6;
+	padding:20px 20px;
+	font-family:'幼圆';
+}
+.left img,.middle img,.right img{
+	padding-top:20px;
+}
+.left:hover,.middle:hover,.right:hover{
+	opacity:0.6;
+}
+.left{
+	background-color:#87ceeb;
+	margin-right:30px;
+}
+.middle{
+	background-color:#f4a460;
+	margin-right:30px;
+}
+.right{
+	background-color:#90ee90;
+}

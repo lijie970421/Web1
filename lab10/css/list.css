@@ -51,8 +51,8 @@
 }
 #zhaosheng{
 	color:#b70000;
-	background:url(../images/menubg.gif);
-	background-position:25% 40%;
+	list-style-image:url(../images/menubg.gif);
+	list-style-position:outside;
 }
 .zhaoshengqishikuang{
 	background:url(../images/listtitle.png);
